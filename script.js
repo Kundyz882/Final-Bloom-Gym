@@ -898,7 +898,7 @@ if (currentEmail) {
       <button type="submit" class="btn btn-secondary w-100 mt-3">Save Changes</button>
     </form>
   `;
-
+  //Edit profile
   const fullForm = document.getElementById("fullEditForm");
   fullForm.addEventListener("submit", e => {
     e.preventDefault();
@@ -947,7 +947,7 @@ function displayExtra(data) {
 }
 
 // === 🍏 Spoonacular API (Nutrition Tips) ===
-const spoonacularApiKey = "9e88d623c5684caaa22da0a024ad710f"; 
+const spoonacularApiKey = "58d6584fd5b44b599d05d3c22147e818"; 
 const recipesContainer = document.getElementById("recipes-container");
 const searchBtn = document.getElementById("searchNutritionBtn");
 const searchInput = document.getElementById("nutritionSearch");
